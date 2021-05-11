@@ -3,7 +3,11 @@
     <div>
       <Logo />
       <h1 class="title">ohmyflare</h1>
-      <div class="links">
+      <div>
+        <Now> </Now>
+        <NuxtLink to="/section">section A</NuxtLink>
+      </div>
+      <!-- <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
@@ -20,7 +24,7 @@
         >
           GitHub
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -32,15 +36,6 @@ export default Vue.extend({})
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
